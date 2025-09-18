@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(245, 222, 179);
+    margin: 0 auto;
+    color: rgb(120, 100, 50);
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    border-color: rgb(120, 100, 50);
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+
+tr,
+td {
+    border-color: rgb(120, 100, 50);
+    text-align: center;
+    margin: 0 auto;
+    width: fit-content;
+    width: 4%;
+}
+
+button {
+    background-color: rgb(210, 200, 170);
+    color: rgb(120, 100, 50);
+    border-color: rgb(120, 100, 50);
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(140, 100, 60);
+    color: #fff;
+}
+button:active {
+    background-color: rgb(103, 63, 38);
+    color: #fff;
+}
+.rolunk{
+    margin: 0 auto;
+    padding: .5rem;
+    border-style: solid;
+    border-radius: 15px;
+    width: 90%;
+    background-color: #bac388;
+}
