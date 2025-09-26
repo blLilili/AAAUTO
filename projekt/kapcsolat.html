@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aaauto.css">
+    <title>AAAUTÓ</title>
+</head>
+<body>
+      <header>
+    <h1>AAAUTÓ</h1>
+    <h2>AUTÓKERESKEDÉS</h2>
+    <table>
+      <tr>
+        <td><button onclick="location.href='rolunk.html'"><h3>Rólunk</h3></button></td>
+        <td><button onclick="location.href='autoink.html'"><h3>Gazdára váró autóink</h3></button></td>
+        <td><button onclick="location.href='kapcsolat.html'"><h3>Kapcsolat</h3></button></td>
+      </tr>
+    </table>
+  </header>
+
+  <div class="kapcsolat">
+        <h2>Kapcsolat</h2>
+    <p><strong>Cégnév:</strong> Autókereskedés Kft.</p>
+    <p><strong>Cím:</strong> 3200 Gyöngyös, Példa utca 1.</p>
+    <p><strong>Telefon:</strong> <a href="tel:+36123456789">+36 1 234 567 89</a></p>
+    <p><strong>E-mail:</strong> <a href="mailto:info@aaautokereskedes.hu">info@aaautokereskedes.hu</a></p>
+    <p><strong>Nyitvatartás:</strong> H–P: 9:00–18:00, Sz: 9:00–14:00</p>
+    
+    <form>
+        <label for="name">Név:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Üzenet:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Küldés</button>
+    </form>
+  </div>
+
+</body>
+</html>
