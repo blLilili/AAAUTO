@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   color: rgb(120, 100, 50);
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 header {
@@ -36,6 +37,21 @@ button {
 button:active {
   background-color: rgb(140, 100, 60);
   color: #fff;
+}
+
+.rolunk{
+  margin: 0 auto;
+  width: 90%;
+}
+.rolunk,img{
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.kapcsolat{
+  margin: 0 auto;
+  width: 50%;
 }
 
 .container {
