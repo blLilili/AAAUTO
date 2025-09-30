@@ -44,6 +44,11 @@ button {
     border-radius: 15px;
 }
 
+.kapcsolat{
+    width: 60%;
+    margin: 0 auto;
+}
+
 button:active {
   background-color: rgb(140, 100, 60);
   color: #fff;
