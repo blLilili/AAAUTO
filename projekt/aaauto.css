@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   color: rgb(120, 100, 50);
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 header {
@@ -31,6 +32,16 @@ button {
   width: 100%;
   cursor: pointer;
   padding: 10px;
+}
+
+.rolunk{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.rolunk,img{
+    width: 80%;
+    border-radius: 15px;
 }
 
 button:active {
